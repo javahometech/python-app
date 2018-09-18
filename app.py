@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     # count = redis.incr('hits')
-    return 'Hello World! Im running in a docker Container - New Features Added'
+    return 'Hello World! Im running in a docker Container - Version 0.0.2'
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
