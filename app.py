@@ -8,7 +8,7 @@ redis = Redis(host=redis_host, port=6379)
 
 @app.route('/')
 def hello():
-     count = redis.incr('hits')
+    count = redis.incr('hits')
     return 'Welcome to Java Home Python App - Number of hits = {}'.format(count)
 
 if __name__ == "__main__":
