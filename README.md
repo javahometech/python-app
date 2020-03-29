@@ -1,4 +1,4 @@
-# Setup Two Container Using Custom bridge network
+# Setup two Container using Custom bridge network
 
 ## 1. Create Custom Bridge Network
 
